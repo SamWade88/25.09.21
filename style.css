@@ -1,0 +1,60 @@
+body{
+	background-image: linear-gradient(#E2DB1F, #CB8180, #AE10F9);
+}
+
+.navbar{
+	padding: 20px;
+	display: grid;
+	grid-template-columns:70% 30%;
+	grid-auto-rows: minmax(100px,auto);
+	border: 1px solid #AE10F9;
+	border-radius: 200px;
+	background-color: white;
+	background-color: rgba(255,255,255,0.5);
+	color: #AE10F9;
+	text-shadow: 2px 2px 2px whitesmoke;
+}
+
+.links{
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	align-content: center;
+	text-align: center;
+}
+
+.logo{
+	font-size: 50px;
+}
+.container{
+	position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container::before {
+		content: "";
+      background-image: url('https://www.executivecarsderby.co.uk/wp-content/uploads/2020/03/IMG_0086-1024x473.jpg');
+      background-size: cover;
+       max-width: 100%;
+      height: auto;
+      border-radius: 20px;
+      position: absolute;
+      display: flex;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+}
+.Main{
+	position: relative;
+	color: #AE10F9;
+	font-size: 50px;
+	text-shadow: 2px 2px 2px whitesmoke;
+}
+
+
+
